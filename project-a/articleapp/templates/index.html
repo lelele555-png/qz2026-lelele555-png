@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>文章列表</title>
+</head>
+<body>
+    <h1>文章</h1>
+    {% for art in articles %}
+        <div>
+            <h3>{{art.title}}</h3>
+            <p>{{art.content}}</p>
+            <p>{{art.create_time}}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

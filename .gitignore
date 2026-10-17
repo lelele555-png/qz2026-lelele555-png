@@ -1,0 +1,27 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite 数据库
+db.sqlite3
+*.sqlite3
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 生成的临时数据
+users.json
